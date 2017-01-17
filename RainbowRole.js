@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({autoReconnect:true});
-const config = require('./config2.json');
+const config = require('./config.json');
 
 var size    = config.colors;
 var rainbow = new Array(size);
