@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({autoReconnect:true});
-const config = require('./config.json');
+const config = require('./config2.json');
 
 var size    = config.colors;
 var rainbow = new Array(size);
@@ -25,10 +25,7 @@ var place = 0;
 var servers = config.servers;
 
 var changeColor = function() {
-	for (let index = 0; index < servers.length; ++index) {
-		let value = a[index];
-		console.log(value);
-		
+	for (let index = 0; index < servers.length; ++index) {		
 		client.guilds.get(servers[index]).roles.find('name', config.roleName).setColor(rainbow[place])
 		.catch(console.error);
 		
@@ -42,7 +39,6 @@ var changeColor = function() {
 		}
 	}
 }
-
 
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.username}!`);
