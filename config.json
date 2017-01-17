@@ -1,5 +1,8 @@
 {
 	"token": "YOUR LOGIN TOKEN HERE",
+	"serverId": "YOUR SERVER ID HERE",
+	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
 	"colors": 12,
+	"speed": 300,
 	"logging": true
 }
