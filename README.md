@@ -8,7 +8,7 @@ Getting a Rainbow Role with a Discord Bot **using Discord.JS**
 
 ##Config:
 | Option        | Usage         |
-| ------------- |:-------------:|
+| ------------- |---------------|
 | token         | Your Discord API token |
 | serverId      | Your server id [(how to get it?)](#)      |
 | roleName      | The name of the role you'd like to automatically change it's color      |
