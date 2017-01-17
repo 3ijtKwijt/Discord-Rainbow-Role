@@ -1,6 +1,9 @@
 {
 	"token": "YOUR LOGIN TOKEN HERE",
-	"serverId": "YOUR SERVER ID HERE",
+	"servers": {
+		"ID 1ST SERVER",
+		"ID 2ND SERVER"
+	},
 	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
 	"colors": 12,
 	"speed": 300,
