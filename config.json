@@ -1,4 +1,5 @@
 {
 	"token": "YOUR LOGIN TOKEN HERE",
-	"colors": 12
+	"colors": 12,
+	"logging": true
 }
