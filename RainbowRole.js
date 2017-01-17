@@ -20,20 +20,29 @@ function sin_to_hex(i, phase) {
 
   return hex.length === 1 ? "0"+hex : hex;
 }
+
 var place = 0;
+var servers = config.servers;
+
 var changeColor = function() {
-	client.guilds.get(config.serverId).roles.find('name', config.roleName).setColor(rainbow[place])
-	.catch(console.error);
-	
-	if(config.logging){
-		console.log("[ColorChanger] Changed color to " + rainbow[place]);
-	}
-	if(place == (size - 1)){
-		place = 0;
-	}else{
-		place++;
+	for (let index = 0; index < servers.length; ++index) {
+		let value = a[index];
+		console.log(value);
+		
+		client.guilds.get(servers[index]).roles.find('name', config.roleName).setColor(rainbow[place])
+		.catch(console.error);
+		
+		if(config.logging){
+			console.log("[ColorChanger] Changed color to " + rainbow[place] + "in server: " + servers[index]);
+		}
+		if(place == (size - 1)){
+			place = 0;
+		}else{
+			place++;
+		}
 	}
 }
+
 
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.username}!`);
