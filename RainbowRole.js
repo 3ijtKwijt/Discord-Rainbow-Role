@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({autoReconnect:true});
-const config = require('./config.json');
+const config = require('./config2.json');
 
 var size    = config.colors;
 var rainbow = new Array(size);
@@ -30,7 +30,7 @@ var changeColor = function() {
 		.catch(console.error);
 		
 		if(config.logging){
-			console.log("[ColorChanger] Changed color to " + rainbow[place] + " in server: " + servers[index]);
+			console.log("[ColorChanger] Changed color to " + rainbow[place] + "in server: " + servers[index]);
 		}
 		if(place == (size - 1)){
 			place = 0;
@@ -42,6 +42,7 @@ var changeColor = function() {
 
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.username}!`);
+	if(config.speed < 60000) console.log("The minimum speed is 60.000, if this gets abused your bot might get IP-banned"); process.exit(1);
 	setInterval(changeColor, config.speed);
 });
 
