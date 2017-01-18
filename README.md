@@ -22,6 +22,9 @@ Getting a Rainbow Role with a Discord Bot **using Discord.JS**
 For permissions, the role from the bot needs to be higher placed than the role you want to change it's color from in the server settings, like this
 
 [Admin]
+
 [BotRole]
+
 [RoleYouWantToChangeItsColorFrom]
+
 [@everyone]
