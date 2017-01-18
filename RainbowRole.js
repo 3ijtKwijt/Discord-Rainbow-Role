@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const client = new Discord.Client({autoReconnect:true});
+const client = new Discord.Client();
 const config = require('./config.json');
 
 var size    = config.colors;
