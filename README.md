@@ -17,6 +17,8 @@ Getting a Rainbow Role with a Discord Bot **using Discord.JS**
 | logging       | If you want to log when the color has changed in the console (can be really messy)      |
 
 ### Attention!
+**If you are using a speed that's lower than 60000ms (1 minute) Your bot might get IP-banned!**
+
 For permissions, the role from the bot needs to be higher placed than the role you want to change it's color from in the server settings, like this
 
 [Admin]
@@ -26,4 +28,3 @@ For permissions, the role from the bot needs to be higher placed than the role y
 [RoleYouWantToChangeItsColorFrom]
 
 [@everyone]
-
