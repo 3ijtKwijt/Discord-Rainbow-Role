@@ -2,11 +2,9 @@
 	"token": "MzAwNDExMTM5MTQ0MTU1MTQ3.C8sEAg.mS5szKV5p2ff0sxtaycJZ_cOHqw",
 	"servers": [
 		"297172861615996928",
-		
 	],
-	"roleName": "AGmin
-",
+	"roleName": "AGmin",
 	"colors": 12,
-	"speed": 30000,
+	"speed": 60000,
 	"logging": true
 }
