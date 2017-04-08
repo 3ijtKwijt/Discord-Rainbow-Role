@@ -4,7 +4,7 @@
 		"ID 1ST SERVER",
 		"ID 2ND SERVER"
 	],
-	"roleName": Four Horsemen,
+	"roleName": "Four Horsemen",
 	"colors": 12,
 	"speed": 60000,
 	"logging": true
