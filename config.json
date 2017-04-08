@@ -4,8 +4,8 @@
 		"297172861615996928",
 		"ID 2ND SERVER"
 	],
-	"roleName": "test",
+	"roleName": "Four Horsemen",
 	"colors": 12,
-	"speed": 60000,
-	"logging": false
+	"speed": 30000,
+	"logging": true
 }
