@@ -1,10 +1,9 @@
 {
-	"token": "YOUR LOGIN TOKEN HERE",
+	"token": "MzAwNDExMTM5MTQ0MTU1MTQ3.C8sEAg.mS5szKV5p2ff0sxtaycJZ_cOHqw",
 	"servers": [
-		"ID 1ST SERVER",
-		"ID 2ND SERVER"
+		"297172861615996928",
 	],
-	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
+	"roleName": "Brobots",
 	"colors": 12,
 	"speed": 60000,
 	"logging": true
