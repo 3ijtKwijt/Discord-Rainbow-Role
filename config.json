@@ -4,8 +4,8 @@
 		"ID 1ST SERVER",
 		"ID 2ND SERVER"
 	],
-	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
-	"colors": 12,
-	"speed": 60000,
-	"logging": true
+	"roleName": "Multicolor",
+	"colors": 15,
+	"speed": 6000,
+	"logging": false
 }
