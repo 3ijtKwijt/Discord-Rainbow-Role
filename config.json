@@ -1,10 +1,10 @@
 {
-	"token": "YOUR LOGIN TOKEN HERE",
+	"token": "https://discord.com/api/guilds/756127227883814942/widget.json",
 	"servers": [
-		"ID 1ST SERVER",
-		"ID 2ND SERVER"
+		"756127227883814942",
+		"756127227883814942"
 	],
-	"roleName": "THE ROLE NAME YOU WANT TO CHANGE ITS COLOR FROM HERE",
+	"roleName": "Rainbow",
 	"colors": 12,
 	"speed": 60000,
 	"logging": true
